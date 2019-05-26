@@ -1,4 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Build Docker Image
+docker build -t movies:dev .
+
+## Launch Container
+docker run -p 3000:3000 movies:dev
 
 ## Available Scripts
 
